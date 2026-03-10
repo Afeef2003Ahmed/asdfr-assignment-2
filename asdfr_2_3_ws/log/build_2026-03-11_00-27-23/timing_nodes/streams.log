@@ -1,0 +1,40 @@
+[0.027s] Invoking command in '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/src/timing_nodes -DCMAKE_INSTALL_PREFIX=/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes
+[0.510s] -- The C compiler identification is GNU 13.3.0
+[1.316s] -- The CXX compiler identification is GNU 13.3.0
+[2.004s] -- Detecting C compiler ABI info
+[2.297s] -- Detecting C compiler ABI info - done
+[2.306s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.307s] -- Detecting C compile features
+[2.308s] -- Detecting C compile features - done
+[2.413s] -- Detecting CXX compiler ABI info
+[2.711s] -- Detecting CXX compiler ABI info - done
+[2.723s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.724s] -- Detecting CXX compile features
+[2.724s] -- Detecting CXX compile features - done
+[2.741s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.904s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.329s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.418s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.427s] -- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[3.461s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.588s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.595s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[3.700s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[3.892s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[4.010s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.287s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[4.928s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.313s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.455s] -- Found PythonExtra: /usr/bin/python3  
+[7.080s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.116s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[7.116s]   ament_target_dependencies() the first argument must be a valid target name
+[7.116s] Call Stack (most recent call first):
+[7.116s]   CMakeLists.txt:20 (ament_target_dependencies)
+[7.116s] 
+[7.116s] [0m
+[7.117s] -- Configuring incomplete, errors occurred!
+[7.127s] Invoked command in '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/src/timing_nodes -DCMAKE_INSTALL_PREFIX=/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes

@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001725] (timing_nodes) JobQueued: {'identifier': 'timing_nodes', 'dependencies': OrderedDict()}
+[0.001878] (timing_nodes) JobStarted: {'identifier': 'timing_nodes'}
+[0.023321] (timing_nodes) JobProgress: {'identifier': 'timing_nodes', 'progress': 'cmake'}
+[0.026579] (timing_nodes) Command: {'cmd': ['/usr/bin/cmake', '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/src/timing_nodes', '-DCMAKE_INSTALL_PREFIX=/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes'], 'cwd': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'afeef_ahmed', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/afeef_ahmed', 'OLDPWD': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/src', 'TERM_PROGRAM_VERSION': '1.110.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6a0fc627-4b1f-445f-9267-4c767d5b45ea.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'afeef_ahmed', 'NAME': 'DESKTOP-ALMK0RT', 'WSL_INTEROP': '/run/WSL/535_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/afeef_ahmed/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/afeef_ahmed/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python38-32":/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python38-32/chromedriver_win32:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python310:/mnt/d/Git/cmd:/mnt/d/Git/mingw64/bin:/mnt/d/Git/usr/bin:/mnt/c/Program Files/WireGuard/:/mnt/d/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/ghcup/bin:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python 3.6:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python310/Scripts:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python310:/mnt/c/Users/Afeef Ahmed/AppData/Local/Microsoft/WindowsApps:/mnt/c/ffmpeg_path:/mnt/d/msys64/ucrt64/bin:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Ollama:/mnt/c/Users/Afeef Ahmed/AppData/Roaming/npm:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/ghcup/bin:/mnt/c/ghcup/bin:/mnt/c/Users/Afeef Ahmed/.local/bin:/mnt/c/Users/Afeef Ahmed/Desktop/Dev-Cpp/TDM-GCC-64/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6d4836297b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.099710] (-) TimerEvent: {}
+[0.200206] (-) TimerEvent: {}
+[0.300779] (-) TimerEvent: {}
+[0.401146] (-) TimerEvent: {}
+[0.501495] (-) TimerEvent: {}
+[0.511117] (timing_nodes) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.601621] (-) TimerEvent: {}
+[0.701941] (-) TimerEvent: {}
+[0.802262] (-) TimerEvent: {}
+[0.902634] (-) TimerEvent: {}
+[1.002956] (-) TimerEvent: {}
+[1.103302] (-) TimerEvent: {}
+[1.203641] (-) TimerEvent: {}
+[1.304002] (-) TimerEvent: {}
+[1.317586] (timing_nodes) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.404122] (-) TimerEvent: {}
+[1.504454] (-) TimerEvent: {}
+[1.604780] (-) TimerEvent: {}
+[1.705124] (-) TimerEvent: {}
+[1.805444] (-) TimerEvent: {}
+[1.905777] (-) TimerEvent: {}
+[2.005409] (timing_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.005855] (-) TimerEvent: {}
+[2.106082] (-) TimerEvent: {}
+[2.206376] (-) TimerEvent: {}
+[2.298219] (timing_nodes) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.306552] (-) TimerEvent: {}
+[2.307985] (timing_nodes) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.308798] (timing_nodes) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.309560] (timing_nodes) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.406670] (-) TimerEvent: {}
+[2.414795] (timing_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.506806] (-) TimerEvent: {}
+[2.607158] (-) TimerEvent: {}
+[2.707504] (-) TimerEvent: {}
+[2.712773] (timing_nodes) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.724978] (timing_nodes) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.725433] (timing_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.726236] (timing_nodes) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.742667] (timing_nodes) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.807668] (-) TimerEvent: {}
+[2.905494] (timing_nodes) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.907759] (-) TimerEvent: {}
+[3.008028] (-) TimerEvent: {}
+[3.020344] (timing_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.108157] (-) TimerEvent: {}
+[3.208468] (-) TimerEvent: {}
+[3.308822] (-) TimerEvent: {}
+[3.330465] (timing_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.408968] (-) TimerEvent: {}
+[3.419453] (timing_nodes) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[3.429098] (timing_nodes) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.3 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[3.462681] (timing_nodes) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[3.509142] (-) TimerEvent: {}
+[3.589845] (timing_nodes) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.596917] (timing_nodes) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.609344] (-) TimerEvent: {}
+[3.701989] (timing_nodes) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.709521] (-) TimerEvent: {}
+[3.809843] (-) TimerEvent: {}
+[3.893317] (timing_nodes) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[3.910017] (-) TimerEvent: {}
+[4.010381] (-) TimerEvent: {}
+[4.011575] (timing_nodes) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.110521] (-) TimerEvent: {}
+[4.210903] (-) TimerEvent: {}
+[4.288764] (timing_nodes) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[4.311046] (-) TimerEvent: {}
+[4.411425] (-) TimerEvent: {}
+[4.511844] (-) TimerEvent: {}
+[4.612177] (-) TimerEvent: {}
+[4.712521] (-) TimerEvent: {}
+[4.812905] (-) TimerEvent: {}
+[4.913268] (-) TimerEvent: {}
+[4.929479] (timing_nodes) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[5.013406] (-) TimerEvent: {}
+[5.113709] (-) TimerEvent: {}
+[5.214110] (-) TimerEvent: {}
+[5.314529] (-) TimerEvent: {}
+[5.415053] (-) TimerEvent: {}
+[5.515517] (-) TimerEvent: {}
+[5.540533] (timing_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.615807] (-) TimerEvent: {}
+[5.716323] (-) TimerEvent: {}
+[5.816794] (-) TimerEvent: {}
+[5.917431] (-) TimerEvent: {}
+[6.017965] (-) TimerEvent: {}
+[6.118296] (-) TimerEvent: {}
+[6.218671] (-) TimerEvent: {}
+[6.310440] (timing_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.314865] (timing_nodes) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[6.318798] (-) TimerEvent: {}
+[6.419095] (-) TimerEvent: {}
+[6.456666] (timing_nodes) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[6.519262] (-) TimerEvent: {}
+[6.619639] (-) TimerEvent: {}
+[6.720077] (-) TimerEvent: {}
+[6.820511] (-) TimerEvent: {}
+[6.921204] (-) TimerEvent: {}
+[7.021661] (-) TimerEvent: {}
+[7.082048] (timing_nodes) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[7.117560] (timing_nodes) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/jazzy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):\n'}
+[7.117914] (timing_nodes) StderrLine: {'line': b'  ament_target_dependencies() the first argument must be a valid target name\n'}
+[7.118003] (timing_nodes) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[7.118078] (timing_nodes) StderrLine: {'line': b'  CMakeLists.txt:20 (ament_target_dependencies)\n'}
+[7.118152] (timing_nodes) StderrLine: {'line': b'\n'}
+[7.118224] (timing_nodes) StderrLine: {'line': b'\x1b[0m\n'}
+[7.118295] (timing_nodes) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.121793] (-) TimerEvent: {}
+[7.128893] (timing_nodes) CommandEnded: {'returncode': 1}
+[7.162264] (timing_nodes) JobEnded: {'identifier': 'timing_nodes', 'rc': 1}
+[7.172837] (-) EventReactorShutdown: {}

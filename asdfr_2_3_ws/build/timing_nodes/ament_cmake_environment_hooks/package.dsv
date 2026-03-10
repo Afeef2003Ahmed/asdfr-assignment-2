@@ -1,0 +1,4 @@
+source;share/timing_nodes/local_setup.bash
+source;share/timing_nodes/local_setup.dsv
+source;share/timing_nodes/local_setup.sh
+source;share/timing_nodes/local_setup.zsh

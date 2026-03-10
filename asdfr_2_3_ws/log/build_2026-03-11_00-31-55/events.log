@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (timing_nodes) JobQueued: {'identifier': 'timing_nodes', 'dependencies': OrderedDict()}
+[0.000797] (timing_nodes) JobStarted: {'identifier': 'timing_nodes'}
+[0.008849] (timing_nodes) JobProgress: {'identifier': 'timing_nodes', 'progress': 'cmake'}
+[0.009745] (timing_nodes) JobProgress: {'identifier': 'timing_nodes', 'progress': 'build'}
+[0.010861] (timing_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes', '--', '-j8', '-l8'], 'cwd': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'afeef_ahmed', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/afeef_ahmed', 'OLDPWD': '/home/afeef_ahmed', 'TERM_PROGRAM_VERSION': '1.110.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3500e270-3a65-4408-9c2a-1815855bd83b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'afeef_ahmed', 'NAME': 'DESKTOP-ALMK0RT', 'WSL_INTEROP': '/run/WSL/535_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/afeef_ahmed/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/afeef_ahmed/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python38-32":/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python38-32/chromedriver_win32:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python310:/mnt/d/Git/cmd:/mnt/d/Git/mingw64/bin:/mnt/d/Git/usr/bin:/mnt/c/Program Files/WireGuard/:/mnt/d/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/ghcup/bin:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python 3.6:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python310/Scripts:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python310:/mnt/c/Users/Afeef Ahmed/AppData/Local/Microsoft/WindowsApps:/mnt/c/ffmpeg_path:/mnt/d/msys64/ucrt64/bin:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Ollama:/mnt/c/Users/Afeef Ahmed/AppData/Roaming/npm:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/ghcup/bin:/mnt/c/ghcup/bin:/mnt/c/Users/Afeef Ahmed/.local/bin:/mnt/c/Users/Afeef Ahmed/Desktop/Dev-Cpp/TDM-GCC-64/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6d4836297b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[0.067622] (timing_nodes) StdoutLine: {'line': b'[  2%] Built target timing_nodes__rosidl_generator_type_description\n'}
+[0.081544] (timing_nodes) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_timing_nodes\n'}
+[0.096006] (timing_nodes) StdoutLine: {'line': b'[ 18%] Built target timing_nodes__cpp\n'}
+[0.096360] (timing_nodes) StdoutLine: {'line': b'[ 18%] Built target timing_nodes__rosidl_generator_c\n'}
+[0.099720] (-) TimerEvent: {}
+[0.137320] (timing_nodes) StdoutLine: {'line': b'[ 26%] Built target timing_nodes__rosidl_typesupport_fastrtps_c\n'}
+[0.137993] (timing_nodes) StdoutLine: {'line': b'[ 34%] Built target timing_nodes__rosidl_typesupport_introspection_c\n'}
+[0.138700] (timing_nodes) StdoutLine: {'line': b'[ 42%] Built target timing_nodes__rosidl_typesupport_c\n'}
+[0.139060] (timing_nodes) StdoutLine: {'line': b'[ 50%] Built target timing_nodes__rosidl_typesupport_introspection_cpp\n'}
+[0.145198] (timing_nodes) StdoutLine: {'line': b'[ 57%] Built target timing_nodes__rosidl_typesupport_cpp\n'}
+[0.148864] (timing_nodes) StdoutLine: {'line': b'[ 65%] Built target timing_nodes__rosidl_typesupport_fastrtps_cpp\n'}
+[0.178534] (timing_nodes) StdoutLine: {'line': b'[ 65%] Built target timing_nodes\n'}
+[0.199867] (-) TimerEvent: {}
+[0.210058] (timing_nodes) StdoutLine: {'line': b'[ 68%] Built target timing_nodes__py\n'}
+[0.223326] (timing_nodes) StdoutLine: {'line': b'[ 73%] Built target loop_node\n'}
+[0.223885] (timing_nodes) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/seq_node.dir/src/seq_node.cpp.o\x1b[0m\n'}
+[0.252975] (timing_nodes) StdoutLine: {'line': b'[ 81%] Built target timing_nodes__rosidl_generator_py\n'}
+[0.285826] (timing_nodes) StdoutLine: {'line': b'[ 86%] Built target timing_nodes_s__rosidl_typesupport_introspection_c\n'}
+[0.289526] (timing_nodes) StdoutLine: {'line': b'[ 92%] Built target timing_nodes_s__rosidl_typesupport_fastrtps_c\n'}
+[0.289911] (timing_nodes) StdoutLine: {'line': b'[ 97%] Built target timing_nodes_s__rosidl_typesupport_c\n'}
+[0.300052] (-) TimerEvent: {}
+[0.400409] (-) TimerEvent: {}
+[0.463898] (timing_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[0.499703] (timing_nodes) StdoutLine: {'line': b'writing timing_nodes.egg-info/PKG-INFO\n'}
+[0.503346] (timing_nodes) StdoutLine: {'line': b'writing dependency_links to timing_nodes.egg-info/dependency_links.txt\n'}
+[0.503484] (-) TimerEvent: {}
+[0.503617] (timing_nodes) StdoutLine: {'line': b'writing top-level names to timing_nodes.egg-info/top_level.txt\n'}
+[0.603623] (-) TimerEvent: {}
+[0.618565] (timing_nodes) StdoutLine: {'line': b"reading manifest file 'timing_nodes.egg-info/SOURCES.txt'\n"}
+[0.619659] (timing_nodes) StdoutLine: {'line': b"writing manifest file 'timing_nodes.egg-info/SOURCES.txt'\n"}
+[0.662150] (timing_nodes) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_timing_nodes_egg\n'}
+[0.703808] (-) TimerEvent: {}
+[0.804164] (-) TimerEvent: {}
+[0.904505] (-) TimerEvent: {}
+[1.004846] (-) TimerEvent: {}
+[1.105232] (-) TimerEvent: {}
+[1.205551] (-) TimerEvent: {}
+[1.305886] (-) TimerEvent: {}
+[1.406217] (-) TimerEvent: {}
+[1.506592] (-) TimerEvent: {}
+[1.607002] (-) TimerEvent: {}
+[1.707421] (-) TimerEvent: {}
+[1.807820] (-) TimerEvent: {}
+[1.908341] (-) TimerEvent: {}
+[2.008849] (-) TimerEvent: {}
+[2.109263] (-) TimerEvent: {}
+[2.209628] (-) TimerEvent: {}
+[2.309993] (-) TimerEvent: {}
+[2.410404] (-) TimerEvent: {}
+[2.510844] (-) TimerEvent: {}
+[2.611300] (-) TimerEvent: {}
+[2.711737] (-) TimerEvent: {}
+[2.812224] (-) TimerEvent: {}
+[2.912686] (-) TimerEvent: {}
+[3.013105] (-) TimerEvent: {}
+[3.113498] (-) TimerEvent: {}
+[3.213888] (-) TimerEvent: {}
+[3.314271] (-) TimerEvent: {}
+[3.414651] (-) TimerEvent: {}
+[3.515082] (-) TimerEvent: {}
+[3.615421] (-) TimerEvent: {}
+[3.715802] (-) TimerEvent: {}
+[3.816182] (-) TimerEvent: {}
+[3.916596] (-) TimerEvent: {}
+[4.016976] (-) TimerEvent: {}
+[4.117363] (-) TimerEvent: {}
+[4.217745] (-) TimerEvent: {}
+[4.318140] (-) TimerEvent: {}
+[4.418540] (-) TimerEvent: {}
+[4.518919] (-) TimerEvent: {}
+[4.619293] (-) TimerEvent: {}
+[4.719680] (-) TimerEvent: {}
+[4.820058] (-) TimerEvent: {}
+[4.920415] (-) TimerEvent: {}
+[5.020773] (-) TimerEvent: {}
+[5.121227] (-) TimerEvent: {}
+[5.221669] (-) TimerEvent: {}
+[5.322126] (-) TimerEvent: {}
+[5.422492] (-) TimerEvent: {}
+[5.522833] (-) TimerEvent: {}
+[5.623228] (-) TimerEvent: {}
+[5.723564] (-) TimerEvent: {}
+[5.823950] (-) TimerEvent: {}
+[5.924296] (-) TimerEvent: {}
+[6.024641] (-) TimerEvent: {}
+[6.124979] (-) TimerEvent: {}
+[6.225350] (-) TimerEvent: {}
+[6.325722] (-) TimerEvent: {}
+[6.426118] (-) TimerEvent: {}
+[6.526474] (-) TimerEvent: {}
+[6.626844] (-) TimerEvent: {}
+[6.727220] (-) TimerEvent: {}
+[6.827581] (-) TimerEvent: {}
+[6.927947] (-) TimerEvent: {}
+[7.028312] (-) TimerEvent: {}
+[7.128676] (-) TimerEvent: {}
+[7.229153] (-) TimerEvent: {}
+[7.329628] (-) TimerEvent: {}
+[7.430061] (-) TimerEvent: {}
+[7.530511] (-) TimerEvent: {}
+[7.630970] (-) TimerEvent: {}
+[7.731514] (-) TimerEvent: {}
+[7.831972] (-) TimerEvent: {}
+[7.932393] (-) TimerEvent: {}
+[8.032829] (-) TimerEvent: {}
+[8.133389] (-) TimerEvent: {}
+[8.233960] (-) TimerEvent: {}
+[8.334476] (-) TimerEvent: {}
+[8.435083] (-) TimerEvent: {}
+[8.535653] (-) TimerEvent: {}
+[8.636107] (-) TimerEvent: {}
+[8.736779] (-) TimerEvent: {}
+[8.837415] (-) TimerEvent: {}
+[8.937987] (-) TimerEvent: {}
+[9.038533] (-) TimerEvent: {}
+[9.138964] (-) TimerEvent: {}
+[9.239540] (-) TimerEvent: {}
+[9.339991] (-) TimerEvent: {}
+[9.440456] (-) TimerEvent: {}
+[9.540864] (-) TimerEvent: {}
+[9.641336] (-) TimerEvent: {}
+[9.741771] (-) TimerEvent: {}
+[9.842162] (-) TimerEvent: {}
+[9.942551] (-) TimerEvent: {}
+[10.042976] (-) TimerEvent: {}
+[10.143396] (-) TimerEvent: {}
+[10.243823] (-) TimerEvent: {}
+[10.344216] (-) TimerEvent: {}
+[10.444604] (-) TimerEvent: {}
+[10.545063] (-) TimerEvent: {}
+[10.645475] (-) TimerEvent: {}
+[10.729772] (timing_nodes) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable seq_node\x1b[0m\n'}
+[10.745629] (-) TimerEvent: {}
+[10.845985] (-) TimerEvent: {}
+[10.946669] (-) TimerEvent: {}
+[11.047131] (-) TimerEvent: {}
+[11.147706] (-) TimerEvent: {}
+[11.248261] (-) TimerEvent: {}
+[11.321194] (timing_nodes) StdoutLine: {'line': b'[100%] Built target seq_node\n'}
+[11.343829] (timing_nodes) CommandEnded: {'returncode': 0}
+[11.345533] (timing_nodes) JobProgress: {'identifier': 'timing_nodes', 'progress': 'install'}
+[11.348375] (-) TimerEvent: {}
+[11.364687] (timing_nodes) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes'], 'cwd': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'afeef_ahmed', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'GIT_ASKPASS': '/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/afeef_ahmed', 'OLDPWD': '/home/afeef_ahmed', 'TERM_PROGRAM_VERSION': '1.110.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-3500e270-3a65-4408-9c2a-1815855bd83b.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'afeef_ahmed', 'NAME': 'DESKTOP-ALMK0RT', 'WSL_INTEROP': '/run/WSL/535_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/afeef_ahmed/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/afeef_ahmed/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/afeef_ahmed/.vscode-server/bin/61b3d0ab13be7dda2389f1d3e60a119c7f660cc3/bin/remote-cli:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Microsoft VS Code:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.9/libnvvp:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python38-32":/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python38-32/chromedriver_win32:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python310:/mnt/d/Git/cmd:/mnt/d/Git/mingw64/bin:/mnt/d/Git/usr/bin:/mnt/c/Program Files/WireGuard/:/mnt/d/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2025.2.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/d/ghcup/bin:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python 3.6:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python310/Scripts:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Python/Python310:/mnt/c/Users/Afeef Ahmed/AppData/Local/Microsoft/WindowsApps:/mnt/c/ffmpeg_path:/mnt/d/msys64/ucrt64/bin:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Ollama:/mnt/c/Users/Afeef Ahmed/AppData/Roaming/npm:/mnt/c/Users/Afeef Ahmed/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/d/ghcup/bin:/mnt/c/ghcup/bin:/mnt/c/Users/Afeef Ahmed/.local/bin:/mnt/c/Users/Afeef Ahmed/Desktop/Dev-Cpp/TDM-GCC-64/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6d4836297b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}), 'shell': False}
+[11.380452] (timing_nodes) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.381223] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/ament_index/resource_index/rosidl_interfaces/timing_nodes\n'}
+[11.381661] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/msg/Timing.json\n'}
+[11.382353] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes\n'}
+[11.382678] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg\n'}
+[11.382994] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/timing.h\n'}
+[11.383464] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail\n'}
+[11.383919] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.h\n'}
+[11.384345] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__functions.c\n'}
+[11.384639] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__struct.h\n'}
+[11.384950] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__description.c\n'}
+[11.385471] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__functions.h\n'}
+[11.385639] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.c\n'}
+[11.386037] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.386284] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/library_path.sh\n'}
+[11.386553] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/library_path.dsv\n'}
+[11.386817] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_generator_c.so\n'}
+[11.387543] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes\n'}
+[11.388016] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg\n'}
+[11.388432] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail\n'}
+[11.388820] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__rosidl_typesupport_fastrtps_c.h\n'}
+[11.389244] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.389872] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_fastrtps_c.so\n'}
+[11.390121] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes\n'}
+[11.390464] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg\n'}
+[11.390789] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail\n'}
+[11.391440] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.c\n'}
+[11.391701] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__rosidl_typesupport_introspection_c.h\n'}
+[11.392090] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.392492] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_introspection_c.so\n'}
+[11.392906] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_c.so\n'}
+[11.393283] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes\n'}
+[11.393681] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg\n'}
+[11.394067] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail\n'}
+[11.394326] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__traits.hpp\n'}
+[11.394583] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.hpp\n'}
+[11.394906] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__builder.hpp\n'}
+[11.395108] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__struct.hpp\n'}
+[11.395276] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.395390] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/timing.hpp\n'}
+[11.395514] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes\n'}
+[11.395632] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg\n'}
+[11.395734] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail\n'}
+[11.395928] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.396085] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/dds_fastrtps\n'}
+[11.396205] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.396365] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.396585] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes\n'}
+[11.396762] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg\n'}
+[11.396922] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail\n'}
+[11.397051] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.397179] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.cpp\n'}
+[11.397362] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_introspection_cpp.so\n'}
+[11.397597] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_cpp.so\n'}
+[11.397815] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/pythonpath.sh\n'}
+[11.398004] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/pythonpath.dsv\n'}
+[11.398188] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info\n'}
+[11.398358] (timing_nodes) StdoutLine: {'line': b'-- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[11.398554] (timing_nodes) StdoutLine: {'line': b'-- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[11.398788] (timing_nodes) StdoutLine: {'line': b'-- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[11.399092] (timing_nodes) StdoutLine: {'line': b'-- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[11.399349] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes\n'}
+[11.399528] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg\n'}
+[11.399727] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg/__init__.py\n'}
+[11.399898] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg/_timing_s.c\n'}
+[11.400086] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg/_timing.py\n'}
+[11.400280] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_c.so\n'}
+[11.400456] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/_timing_nodes_s.ep.rosidl_typesupport_c.c\n'}
+[11.400673] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/__init__.py\n'}
+[11.400860] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_introspection_c.so\n'}
+[11.401056] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/_timing_nodes_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.401251] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.401444] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/_timing_nodes_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.448606] (-) TimerEvent: {}
+[11.459586] (timing_nodes) StdoutLine: {'line': b"Listing '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes'...\n"}
+[11.460064] (timing_nodes) StdoutLine: {'line': b"Listing '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg'...\n"}
+[11.471005] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.471738] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_introspection_c.so\n'}
+[11.472351] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_c.so\n'}
+[11.473348] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_generator_py.so\n'}
+[11.473882] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/msg/Timing.idl\n'}
+[11.474518] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/msg/Timing.msg\n'}
+[11.474717] (timing_nodes) StdoutLine: {'line': b'-- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/timing_nodes/seq_node\n'}
+[11.490043] (timing_nodes) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/timing_nodes/seq_node" to ""\n'}
+[11.490553] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/timing_nodes/loop_node\n'}
+[11.491107] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/ament_index/resource_index/package_run_dependencies/timing_nodes\n'}
+[11.491708] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/ament_index/resource_index/parent_prefix_path/timing_nodes\n'}
+[11.492199] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/ament_prefix_path.sh\n'}
+[11.492711] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/ament_prefix_path.dsv\n'}
+[11.493059] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/path.sh\n'}
+[11.493593] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/path.dsv\n'}
+[11.493854] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/local_setup.bash\n'}
+[11.494120] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/local_setup.sh\n'}
+[11.494473] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/local_setup.zsh\n'}
+[11.494696] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/local_setup.dsv\n'}
+[11.494963] (timing_nodes) StdoutLine: {'line': b'-- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/package.dsv\n'}
+[11.495307] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/ament_index/resource_index/packages/timing_nodes\n'}
+[11.495668] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_cExport.cmake\n'}
+[11.495991] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.496705] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.497062] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.497491] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.497673] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.497893] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_cExport.cmake\n'}
+[11.498100] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.498219] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_cppExport.cmake\n'}
+[11.498386] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.498500] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.498649] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.498791] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.498955] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_cppExport.cmake\n'}
+[11.499147] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.499266] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_pyExport.cmake\n'}
+[11.499404] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.499532] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/rosidl_cmake-extras.cmake\n'}
+[11.499639] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.500166] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.500442] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.500687] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.501272] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.501651] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.502407] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodesConfig.cmake\n'}
+[11.502701] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodesConfig-version.cmake\n'}
+[11.502924] (timing_nodes) StdoutLine: {'line': b'-- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/package.xml\n'}
+[11.504889] (timing_nodes) CommandEnded: {'returncode': 0}
+[11.549442] (-) TimerEvent: {}
+[11.552019] (timing_nodes) JobEnded: {'identifier': 'timing_nodes', 'rc': 0}
+[11.554286] (-) EventReactorShutdown: {}

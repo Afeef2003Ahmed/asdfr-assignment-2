@@ -1,0 +1,10 @@
+{
+  "package_name": "timing_nodes",
+  "output_dir": "/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes/rosidl_generator_type_description/timing_nodes",
+  "idl_tuples": [
+    "/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes/rosidl_adapter/timing_nodes:msg/Timing.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

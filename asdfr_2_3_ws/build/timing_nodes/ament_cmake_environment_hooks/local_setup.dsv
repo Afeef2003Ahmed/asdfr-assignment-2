@@ -1,0 +1,4 @@
+source;share/timing_nodes/environment/ament_prefix_path.sh
+source;share/timing_nodes/environment/library_path.sh
+source;share/timing_nodes/environment/path.sh
+source;share/timing_nodes/environment/pythonpath.sh

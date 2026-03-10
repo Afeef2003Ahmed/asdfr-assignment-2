@@ -1,0 +1,154 @@
+[0.015s] Invoking command in '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes -- -j8 -l8
+[0.067s] [  2%] Built target timing_nodes__rosidl_generator_type_description
+[0.081s] [  2%] Built target ament_cmake_python_copy_timing_nodes
+[0.095s] [ 18%] Built target timing_nodes__cpp
+[0.096s] [ 18%] Built target timing_nodes__rosidl_generator_c
+[0.137s] [ 26%] Built target timing_nodes__rosidl_typesupport_fastrtps_c
+[0.137s] [ 34%] Built target timing_nodes__rosidl_typesupport_introspection_c
+[0.138s] [ 42%] Built target timing_nodes__rosidl_typesupport_c
+[0.138s] [ 50%] Built target timing_nodes__rosidl_typesupport_introspection_cpp
+[0.145s] [ 57%] Built target timing_nodes__rosidl_typesupport_cpp
+[0.148s] [ 65%] Built target timing_nodes__rosidl_typesupport_fastrtps_cpp
+[0.178s] [ 65%] Built target timing_nodes
+[0.209s] [ 68%] Built target timing_nodes__py
+[0.223s] [ 73%] Built target loop_node
+[0.223s] [ 76%] [32mBuilding CXX object CMakeFiles/seq_node.dir/src/seq_node.cpp.o[0m
+[0.252s] [ 81%] Built target timing_nodes__rosidl_generator_py
+[0.285s] [ 86%] Built target timing_nodes_s__rosidl_typesupport_introspection_c
+[0.289s] [ 92%] Built target timing_nodes_s__rosidl_typesupport_fastrtps_c
+[0.289s] [ 97%] Built target timing_nodes_s__rosidl_typesupport_c
+[0.463s] running egg_info
+[0.499s] writing timing_nodes.egg-info/PKG-INFO
+[0.503s] writing dependency_links to timing_nodes.egg-info/dependency_links.txt
+[0.503s] writing top-level names to timing_nodes.egg-info/top_level.txt
+[0.618s] reading manifest file 'timing_nodes.egg-info/SOURCES.txt'
+[0.619s] writing manifest file 'timing_nodes.egg-info/SOURCES.txt'
+[0.662s] [ 97%] Built target ament_cmake_python_build_timing_nodes_egg
+[10.729s] [100%] [32m[1mLinking CXX executable seq_node[0m
+[11.321s] [100%] Built target seq_node
+[11.343s] Invoked command in '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes -- -j8 -l8
+[11.364s] Invoking command in '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes
+[11.380s] -- Install configuration: ""
+[11.381s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/ament_index/resource_index/rosidl_interfaces/timing_nodes
+[11.381s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/msg/Timing.json
+[11.382s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes
+[11.382s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg
+[11.383s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/timing.h
+[11.383s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail
+[11.383s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.h
+[11.384s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__functions.c
+[11.384s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__struct.h
+[11.385s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__description.c
+[11.385s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__functions.h
+[11.385s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.c
+[11.385s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_generator_c__visibility_control.h
+[11.386s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/library_path.sh
+[11.386s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/library_path.dsv
+[11.387s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_generator_c.so
+[11.387s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes
+[11.388s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg
+[11.388s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail
+[11.388s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__rosidl_typesupport_fastrtps_c.h
+[11.389s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.389s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_fastrtps_c.so
+[11.390s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes
+[11.390s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg
+[11.390s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail
+[11.391s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.c
+[11.391s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__rosidl_typesupport_introspection_c.h
+[11.392s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.392s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_introspection_c.so
+[11.392s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_c.so
+[11.393s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes
+[11.393s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg
+[11.393s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail
+[11.394s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__traits.hpp
+[11.394s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.hpp
+[11.394s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__builder.hpp
+[11.394s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__struct.hpp
+[11.395s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.395s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/timing.hpp
+[11.395s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes
+[11.395s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg
+[11.395s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail
+[11.395s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__rosidl_typesupport_fastrtps_cpp.hpp
+[11.395s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/dds_fastrtps
+[11.396s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.396s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_fastrtps_cpp.so
+[11.396s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes
+[11.396s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg
+[11.396s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail
+[11.396s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__rosidl_typesupport_introspection_cpp.hpp
+[11.396s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/include/timing_nodes/timing_nodes/msg/detail/timing__type_support.cpp
+[11.397s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_introspection_cpp.so
+[11.397s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_typesupport_cpp.so
+[11.397s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/pythonpath.sh
+[11.397s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/pythonpath.dsv
+[11.397s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info
+[11.398s] -- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info/PKG-INFO
+[11.398s] -- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info/dependency_links.txt
+[11.398s] -- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info/top_level.txt
+[11.398s] -- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes-0.0.0-py3.12.egg-info/SOURCES.txt
+[11.399s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes
+[11.399s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg
+[11.399s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg/__init__.py
+[11.399s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg/_timing_s.c
+[11.399s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg/_timing.py
+[11.400s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_c.so
+[11.400s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/_timing_nodes_s.ep.rosidl_typesupport_c.c
+[11.400s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/__init__.py
+[11.400s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_introspection_c.so
+[11.400s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/_timing_nodes_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.401s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_fastrtps_c.so
+[11.401s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/_timing_nodes_s.ep.rosidl_typesupport_introspection_c.c
+[11.459s] Listing '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes'...
+[11.459s] Listing '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/msg'...
+[11.471s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_fastrtps_c.so
+[11.471s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_introspection_c.so
+[11.472s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/python3.12/site-packages/timing_nodes/timing_nodes_s__rosidl_typesupport_c.so
+[11.473s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/libtiming_nodes__rosidl_generator_py.so
+[11.473s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/msg/Timing.idl
+[11.474s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/msg/Timing.msg
+[11.474s] -- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/timing_nodes/seq_node
+[11.490s] -- Set non-toolchain portion of runtime path of "/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/timing_nodes/seq_node" to ""
+[11.490s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/lib/timing_nodes/loop_node
+[11.491s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/ament_index/resource_index/package_run_dependencies/timing_nodes
+[11.491s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/ament_index/resource_index/parent_prefix_path/timing_nodes
+[11.492s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/ament_prefix_path.sh
+[11.492s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/ament_prefix_path.dsv
+[11.493s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/path.sh
+[11.493s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/environment/path.dsv
+[11.493s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/local_setup.bash
+[11.494s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/local_setup.sh
+[11.494s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/local_setup.zsh
+[11.494s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/local_setup.dsv
+[11.494s] -- Installing: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/package.dsv
+[11.495s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/ament_index/resource_index/packages/timing_nodes
+[11.495s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_cExport.cmake
+[11.495s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_cExport-noconfig.cmake
+[11.496s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_typesupport_fastrtps_cExport.cmake
+[11.497s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.497s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_introspection_cExport.cmake
+[11.497s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.497s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_cExport.cmake
+[11.497s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_cExport-noconfig.cmake
+[11.498s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_cppExport.cmake
+[11.498s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.498s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.498s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_introspection_cppExport.cmake
+[11.498s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.498s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_cppExport.cmake
+[11.498s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodes__rosidl_typesupport_cppExport-noconfig.cmake
+[11.499s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_pyExport.cmake
+[11.499s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/export_timing_nodes__rosidl_generator_pyExport-noconfig.cmake
+[11.499s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/rosidl_cmake-extras.cmake
+[11.499s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.500s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.500s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+[11.500s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/ament_cmake_export_targets-extras.cmake
+[11.501s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.501s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.502s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodesConfig.cmake
+[11.502s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/cmake/timing_nodesConfig-version.cmake
+[11.503s] -- Up-to-date: /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/install/timing_nodes/share/timing_nodes/package.xml
+[11.504s] Invoked command in '/home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/afeef_ahmed/assignment_2/asdfr_2_3_ws/build/timing_nodes
