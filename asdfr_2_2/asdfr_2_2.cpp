@@ -9,7 +9,8 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include <evl/evl.h>
+#include <evl/thread.h>
+#include <evl/clock.h>
 #include <pthread.h>
 #include <time.h>
 #include <unistd.h>
@@ -18,7 +19,7 @@
 #define NUM_SAMPLES 1000
 
 std::vector<double> jitter_samples;
-bool do_work = false;
+bool do_work = false; // This flag is to enable/disable extra workload
 
 void run_periodic_loop()
 {
@@ -26,7 +27,7 @@ void run_periodic_loop()
 
     clock_gettime(CLOCK_MONOTONIC, &next_time);
 
-    for(int i = 0; i < NUM_SAMPLES; i++)
+    for(int i = 0; i < NUM_SAMPLES; i++)  // The following few lines of code is to handle nanosecond overflow
     {
         next_time.tv_nsec += PERIOD_NS;
 
@@ -43,11 +44,11 @@ void run_periodic_loop()
         long expected = next_time.tv_sec * 1e9 + next_time.tv_nsec;
         long actual   = current_time.tv_sec * 1e9 + current_time.tv_nsec;
 
-        double jitter_us = (actual - expected) / 1000.0;
+        double jitter_us = (actual - expected) / 1000.0; // Jitter calculation
 
         jitter_samples.push_back(jitter_us);
 
-        if(do_work)
+        if(do_work) // With Workload
         {
             double x = 0;
             for(int k = 0; k < 10000; k++)
@@ -91,10 +92,10 @@ int main()
 {
     std::cout << "Xenomai / EVL Real-Time Timing Test\n";
 
-    // Attach thread to EVL core
+    // Attaching thread to EVL core
     evl_attach_self("rt_thread");
 
-    // Set real-time scheduling policy
+    // Real-time scheduling policy
     struct sched_param param;
     param.sched_priority = 80;
 
@@ -104,7 +105,7 @@ int main()
         &param
     );
 
-    // Pin thread to EVL core (core 1)
+    // Pinning thread to EVL core 
     cpu_set_t cpuset;
     CPU_ZERO(&cpuset);
     CPU_SET(1, &cpuset);
