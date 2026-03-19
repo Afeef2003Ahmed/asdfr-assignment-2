@@ -51,7 +51,7 @@ void run_periodic_loop()
         if(do_work) // With Workload
         {
             double x = 0;
-            for(int k = 0; k < 10000; k++)
+            for(int k = 0; k < 3000; k++)
                 x += sin(k) * cos(k);
 
             volatile double y = x;
@@ -86,6 +86,19 @@ void print_stats()
     std::cout << "Max jitter: " << max << " us\n";
     std::cout << "Mean jitter: " << mean << " us\n";
     std::cout << "Std dev: " << stddev << " us\n";
+}
+
+void save_data(const char* filename)
+{
+    std::ofstream file(filename);
+
+    for(size_t i = 0; i < jitter_samples.size(); i++)
+    {
+        file << i << "," << jitter_samples[i] << std::endl;
+    }
+
+    file.close();
+    std::cout << "Saved to " << filename << std::endl;
 }
 
 int main()

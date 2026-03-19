@@ -37,4 +37,6 @@ void run_periodic_loop();
 
 void print_stats();
 
+void save_data(const char* filename);
+
 #endif 
