@@ -16,7 +16,7 @@
 #include <unistd.h>
 
 #define PERIOD_NS 1000000   // 1 ms
-#define NUM_SAMPLES 1000
+#define NUM_SAMPLES 5000
 
 std::vector<double> jitter_samples;
 bool do_work = false; // This flag is to enable/disable extra workload

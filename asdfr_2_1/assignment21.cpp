@@ -16,10 +16,10 @@
 
 
 pthread_t thread;
-bool running = false;
+bool running = false;  // Flag to control execution of the periodic loop
 std::vector<double> jitter_samples;  
 
-bool do_work = false;
+bool do_work = false; // This flag is to enable/disable extra workload
 
 
 void* periodic_thread(void* arg) {
@@ -28,7 +28,7 @@ void* periodic_thread(void* arg) {
 
     clock_gettime(CLOCK_MONOTONIC, &next_time);
     
-    while (running) {
+    while (running) { // The following few lines of code is to handle nanosecond overflow
         
         next_time.tv_nsec += 1000000;  
         
@@ -46,12 +46,12 @@ void* periodic_thread(void* arg) {
         
         long expected_ns = next_time.tv_sec * 1e9 + next_time.tv_nsec;
         long actual_ns = current_time.tv_sec * 1e9 + current_time.tv_nsec;
-        double jitter_us = (actual_ns - expected_ns) / 1000.0;
+        double jitter_us = (actual_ns - expected_ns) / 1000.0; // Jitter Computation
         
         jitter_samples.push_back(jitter_us);
         
         
-        if (do_work) {
+        if (do_work) { // With Workload
             
             double x = 0;
             for (int i = 0; i < 10000; i++) {
