@@ -14,7 +14,8 @@ SeqNode::SeqNode() : Node("seq_node"), counter_(0), prev_rtt_(0)
             std::bind(&SeqNode::callback,this,std::placeholders::_1));
 
         timer_ = create_wall_timer(1ms,
-            std::bind(&SeqNode::timer_callback,this));
+            std::bind(&SeqNode::timer_callback,this)); // Timer: triggers every 1 ms (periodic execution)
+
 
         file_.open("timing_data.csv");
         file_ << "id,rtt_ms,jitter_ms\n";
@@ -26,11 +27,12 @@ SeqNode::SeqNode() : Node("seq_node"), counter_(0), prev_rtt_(0)
     {
         timing_nodes::msg::Timing msg;
 
-        msg.id = counter_;
+        msg.id = counter_; // Assign unique ID to each message
         msg.timestamp = this->now();
 
         pub_->publish(msg);
-        if(counter_ >= 10000)
+        if(counter_ >= 10000) // Stop condition: terminate after 10,000 samples
+    // This prevents infinite execution and allows controlled measurement
     {
         file_.close();
         rclcpp::shutdown();
@@ -43,12 +45,15 @@ SeqNode::SeqNode() : Node("seq_node"), counter_(0), prev_rtt_(0)
     {
         auto now = this->now();
 
+        // Compute Round Trip Time (RTT)
+        // RTT = current time - original send timestamp
+
         double rtt =
         (now - msg->timestamp).seconds()*1000;
 
-        double jitter = fabs(rtt - prev_rtt_);
+        double jitter = fabs(rtt - prev_rtt_); // Jitter Computation
 
-        prev_rtt_ = rtt;
+        prev_rtt_ = rtt; // Update previous RTT for next iteration
 
         file_ << msg->id << "," << rtt << "," << jitter << "\n";
 
