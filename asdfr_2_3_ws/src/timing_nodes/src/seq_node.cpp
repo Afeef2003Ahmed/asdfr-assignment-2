@@ -1,14 +1,11 @@
-#include "rclcpp/rclcpp.hpp"
-#include "timing_nodes/msg/timing.hpp"
-#include <fstream>
+#include "seq_node.hpp"
+#include <cmath>
 #include <chrono>
 
 using namespace std::chrono_literals;
 
-class SeqNode : public rclcpp::Node
-{
-public:
-    SeqNode() : Node("seq_node"), counter_(0), prev_rtt_(0)
+
+SeqNode::SeqNode() : Node("seq_node"), counter_(0), prev_rtt_(0)
     {
         pub_ = create_publisher<timing_nodes::msg::Timing>("seq_to_loop",10);
 
@@ -23,9 +20,9 @@ public:
         file_ << "id,rtt_ms,jitter_ms\n";
     }
 
-private:
 
-    void timer_callback()
+
+    void SeqNode::timer_callback()
     {
         timing_nodes::msg::Timing msg;
 
@@ -42,7 +39,7 @@ private:
         counter_++;
     }
 
-    void callback(const timing_nodes::msg::Timing::SharedPtr msg)
+    void SeqNode::callback(const timing_nodes::msg::Timing::SharedPtr msg)
     {
         auto now = this->now();
 
@@ -60,15 +57,7 @@ private:
         msg->id,rtt,jitter);
     }
 
-    rclcpp::Publisher<timing_nodes::msg::Timing>::SharedPtr pub_;
-    rclcpp::Subscription<timing_nodes::msg::Timing>::SharedPtr sub_;
-    rclcpp::TimerBase::SharedPtr timer_;
 
-    std::ofstream file_;
-
-    long counter_;
-    double prev_rtt_;
-};
 
 int main(int argc,char **argv)
 {

@@ -13,6 +13,7 @@
 #include <pthread.h>
 #include <time.h>
 #include <unistd.h>
+#include "assignment21.hpp"
 
 
 pthread_t thread;
