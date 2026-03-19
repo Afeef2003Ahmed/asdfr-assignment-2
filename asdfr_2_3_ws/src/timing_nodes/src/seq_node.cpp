@@ -1,4 +1,4 @@
-#include "seq_node.hpp"
+#include "../include/seq_node.hpp"
 #include <cmath>
 #include <chrono>
 
