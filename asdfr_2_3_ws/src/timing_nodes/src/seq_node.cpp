@@ -45,7 +45,7 @@ SeqNode::SeqNode() : Node("seq_node"), counter_(0), prev_rtt_(0)
     {
         auto now = this->now();
 
-        // Compute Round Trip Time (RTT)
+        // Computing Round Trip Time (RTT)
         // RTT = current time - original send timestamp
 
         double rtt =
